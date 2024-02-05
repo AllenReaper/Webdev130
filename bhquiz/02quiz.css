@@ -1,0 +1,19 @@
+.box{
+    background-color: rgb(99, 99, 99); 
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    width:100%;
+}
+.box img{
+    width: 70%;
+    border: 15px solid rgb(62, 59, 59);
+    border-radius: 50%;
+    margin: 70px;
+}
+.brimg img{
+    width: 100%;
+}
+.brimg{
+    margin-bottom: -4px;
+}
