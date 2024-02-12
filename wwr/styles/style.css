@@ -17,15 +17,15 @@
 
 nav a{
     text-align: center;
-    color: #3fabfd;
+    color: #005da4;
     text-decoration: none;
     margin: 110px;
     padding: 35px;
 }
 
 nav a:hover{
-    background-color: #060505;
-    color: #d31b1b;
+    background-color: #b7b7b782;
+    color: #681bd3;
 }
 
 #hero-msg h1{
@@ -59,7 +59,7 @@ main section{
 }
 
 body{
-    background-color: #709bac;
+    background-color: #ddf3f8;
     color: black;
     margin: 0;
     padding: 0;
@@ -70,13 +70,13 @@ h2 {
 }
 
 header{
-    background-color: #1525bc;
+    background-color: #1382d6;
     
 }
 
 #background {
     height: 725px;
-    color: #1525bc;
+    background-color: #c1ad66;
 }
 
 .book, .join {
