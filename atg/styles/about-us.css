@@ -1,0 +1,62 @@
+
+.icon {
+    width: 80px;
+    padding-top: 10px;
+}
+
+.logo {
+    height: 120px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a{
+    text-align: center;
+    color: #005da4;
+    text-decoration: none;
+    font-size: 40px;
+    margin: 50px;
+    padding: 5px;
+}
+
+nav a:hover{
+    background-color: #b7b7b782;
+    color: #681bd3;
+}
+
+header{
+    background-color: #bdd5ea;
+    display: grid;
+    grid-template-columns: 150px auto;
+    
+}
+
+footer{
+    background-color: aliceblue;
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer a {
+    text-align: center;
+    color: #88bed3;
+    text-decoration: none;
+}
+
+footer p {
+    font-size: 1.2em;
+}
+
+footer p a:hover {
+    text-decoration: underline;
+}
+
+footer .social img {
+    padding-top: 15px;
+}
