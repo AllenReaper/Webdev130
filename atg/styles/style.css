@@ -36,6 +36,10 @@ body {
   font-size: 18px;
   text-align: center;
 }
+
+main img{
+  max-width: 600px;
+}
 img {
   display: block;
   margin: 0 auto;
