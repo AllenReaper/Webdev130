@@ -1,13 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+French+Canon&family=Lato:ital,wght@0,400;0,700;1,400&display=swap');
 
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
 
 .icon {
   width: 80px;
   padding-top: 10px;
 }
 
-
+ 
 .logo {
   height: 150px;
+  margin-left: 50px;
 }
 
 nav {
@@ -17,7 +24,7 @@ nav {
 
 nav a{
   text-align: center;
-  color: #005da4;
+  color: white;
   text-decoration: none;
   font-size: 40px;
   margin: 50px;
@@ -25,12 +32,12 @@ nav a{
 }
 
 nav a:hover{
-  background-color: #b7b7b782;
-  color: #681bd3;
+    background-color: #fe5f55;
+    color: black;
 }
 
 header{
-  background-color: #bdd5ea;
+  background-color: #131342;
   display: grid;
   grid-template-columns: 150px auto;
   
@@ -59,15 +66,28 @@ main{
     display: inline-block;
     /* Form outline */
     padding: 3%;
-    border: 1px solid #ccc;
+    border: 5px solid #fe5f55;
     border-radius: 1em;
     margin: 63px;
+    background-color: rgb(87, 142, 191);
+  }
+
+  .question{
+    font-size: large;
+    font-family: poppins;
+    text-align: center;
+  }
+
+  .num{
+    margin-right: 35%;
   }
   
   ul {
     list-style: none;
     padding: 0;
     margin: 0;
+    text-align: center;
+    
   }
   
   form li + li {
@@ -133,9 +153,8 @@ main{
 }
 
 footer{
-  background-color: aliceblue;
+  background-color: rgb(87, 142, 191);
   padding: 25px 50px;
-  margin-top: 200px;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -143,8 +162,9 @@ footer{
 
 footer a {
   text-align: center;
-  color: #88bed3;
+  color: black;
   text-decoration: none;
+  margin-left: 10px;
 }
 
 footer p {
