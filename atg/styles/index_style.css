@@ -1,6 +1,12 @@
 
 @import url('https://fonts.googleapis.com/css2?family=IM+Fell+French+Canon&family=Lato:ital,wght@0,400;0,700;1,400&display=swap');
 
+.poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
 #content div{
     max-width: 1600px;
     margin: 0 auto;
@@ -13,6 +19,7 @@
 
 .logo {
     height: 120px;
+    margin-left: 50px;
 }
 
 nav {
@@ -22,7 +29,7 @@ nav {
 
 nav a{
     text-align: center;
-    color: #005da4;
+    color: white;
     text-decoration: none;
     font-size: 40px;
     margin: 50px;
@@ -30,8 +37,8 @@ nav a{
 }
 
 nav a:hover{
-    background-color: #b7b7b782;
-    color: #681bd3;
+    background-color: #fe5f55;
+    color: black;
 }
 
 
@@ -40,6 +47,7 @@ nav a:hover{
     border-style: solid;
     border-width: 0px 0px 20px 0px;
     border-color: white;
+    padding: 20px;
 }
 
 
@@ -53,6 +61,7 @@ nav a:hover{
     border-style: solid;
     border-width: 0px 0px 20px 0px;
     border-color: white;
+    background-color: #9a9999;
 }
 
 p {
@@ -76,7 +85,7 @@ h1{
     border-style: solid;
     border-width: 0px 0px 0px 20px;
     border-color: white;
-    
+    background-color: #9a9999;
 }
 .explination{
     text-align: center;
@@ -84,6 +93,8 @@ h1{
     border-width: 0px 0px 20px 0px;
     border-color: white;
     padding: 50px;
+    font-family: Poppins;
+    background-color: #9a9999;
 }
 
 .button-box{
@@ -103,7 +114,7 @@ h1{
 }
 .book:hover{
     background-color: #495867;
-    color: none;
+    color: white;
 }
 body{
     background-color: #e7e7e7;
@@ -113,7 +124,7 @@ body{
 }
 
 header{
-    background-color: #bdd5ea;
+    background-color: #131342;
     display: grid;
     grid-template-columns: 150px auto;
     
@@ -223,7 +234,7 @@ main section img {
 }
 
 footer{
-    background-color: aliceblue;
+    background-color: rgb(87, 142, 191);
     padding: 25px 50px;
     display: flex;
     justify-content: space-around;
@@ -232,7 +243,7 @@ footer{
 
 footer a {
     text-align: right;
-    color: #88bed3;
+    color: black;
     text-decoration: none;
     margin-left: 10px;
 }
