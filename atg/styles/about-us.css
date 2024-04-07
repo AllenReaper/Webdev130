@@ -20,6 +20,13 @@ body{
     margin-left: 50px;
 }
 
+#logo_link{
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+
+
 nav {
     display: flex;
     justify-content: space-around;
@@ -63,7 +70,7 @@ header{
 #story{
     margin-left: 300px;
     margin-right: 300px;
-    height: 300px;
+    height: 1220px;
     text-align: center;
     font-family: poppins;
     background-color: #577399;
@@ -79,9 +86,23 @@ h1{
     margin-bottom: 20px;
 }
 
+.dastory2{
+    font-size: x-large;
+    margin: 20px;
+    margin-bottom: 20px;
+}
 
+.dastory3{
+    font-size: x-large;
+    margin: 20px;
+    margin-bottom: 20px;
+}
 
-
+.dastory4{
+    font-size: x-large;
+    margin: 20px;
+    margin-bottom: 20px;
+}
 
 footer{
     background-color: rgb(87, 142, 191);

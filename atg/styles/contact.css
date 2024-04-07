@@ -17,6 +17,12 @@
   margin-left: 50px;
 }
 
+#logo_link{
+  padding-top: 5px;
+  justify-self: center;
+  align-self: center;
+}
+
 nav {
   display: flex;
   justify-content: space-around;
